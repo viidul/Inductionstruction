@@ -25,7 +25,7 @@ function onPlayerStateChange(event) {
     btn.disabled = false;
     btn.classList.add('enabled');
     btn.onclick = () => {
-      window.location.href = 'https://www.google.com'; // Replace with your next link
+      window.location.href = 'https://forms.office.com/r/sp0PCvLwWZ?origin=lprLink'; // Replace with your next link
     };
   }
 }
