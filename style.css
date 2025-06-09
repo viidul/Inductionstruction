@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+
+.video-container {
+  max-width: 640px;
+  margin: 0 auto 20px auto;
+  pointer-events: none; /* disables interaction with iframe */
+}
+
+#player {
+  pointer-events: auto; /* re-enables player element only */
+}
+
+button#continueBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: not-allowed;
+  background-color: #888;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button#continueBtn.enabled {
+  background-color: #28a745;
+  cursor: pointer;
+}
